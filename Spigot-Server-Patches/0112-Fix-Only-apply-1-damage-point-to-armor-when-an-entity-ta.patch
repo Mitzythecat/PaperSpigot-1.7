@@ -12,9 +12,9 @@ index 37ef31ea8..bf67d90ef 100644
 @@ -1077,7 +1077,7 @@ public abstract class EntityLiving extends Entity {
              // Apply damage to armor
              if (!damagesource.ignoresArmor()) {
-                 float armorDamage = (float) (event.getDamage() + event.getDamage(DamageModifier.BLOCKING) + event.getDamage(DamageModifier.HARD_HAT));
-+                this.damageArmor(armorDamage);
--                this.damageArmor(1);
+-                float armorDamage = (float) (event.getDamage() + event.getDamage(DamageModifier.BLOCKING) + event.getDamage(DamageModifier.HARD_HAT));
+-                this.damageArmor(armorDamage);
++                this.damageArmor(1);
              }
  
              absorptionModifier = (float) -event.getDamage(DamageModifier.ABSORPTION);
