@@ -1,8 +1,10 @@
-# IPVP PaperSpigot 1.7 Fork #
+# IPVP PaperSpigot 1.7 Fork by Noksio #
 <p>This is the primary repository for the IPVP PaperSpigot 1.7.10 software. PaperSpigot is a high performance 
 Spigot fork that aims to fix gameplay and mechanics inconsistencies. PaperSpigot 1.7.10 is no longer a supported
 software by their development team; please do not bug them to fix any issues for you. You are free to submit
-issues via the Issue tracker on GitHub, we will aim to fix or add any issues you come across.</p>
+issues via the Issue tracker on GitHub, we will aim to fix or add any issues you come across.
+
+This paper fix unfixed 1.7 minecraft bugs</p>
 
 ## Installation Instructions ##
 Install our customized version of PaperSpigot via 3 easy steps:
