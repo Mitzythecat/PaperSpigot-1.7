@@ -20,8 +20,7 @@ index 5b86c7c..e24a4e6 100644
 -        } else {
 -            return getHandle().noDamageTicks;
 -        }
-+        return Math.max(getHandle().invulnerableTicks,
-+            Math.max(0, getHandle().noDamageTicks - getHandle().maxNoDamageTicks / 2));
++        return Math.max(getHandle().invulnerableTicks, Math.max(0, getHandle().noDamageTicks - getHandle().maxNoDamageTicks / 2));
      }
  
      @Override
