@@ -73,7 +73,7 @@ index 1a8e5dc..afa674f 100644
 +                            EntityPlayer attackedPlayer = (EntityPlayer) entity;
 +
 +                            PlayerVelocityEvent event = new PlayerVelocityEvent(attackedPlayer.getBukkitEntity(), attackedPlayer.getBukkitEntity().getVelocity());
-+                       	    this.world.getServer().getPluginManager().callEvent(event);
++                            this.world.getServer().getPluginManager().callEvent(event);
 +                            if(!event.isCancelled()){
 +                                attackedPlayer.getBukkitEntity().setVelocityDirect(event.getVelocity());
 +                                attackedPlayer.playerConnection.sendPacket(new PacketPlayOutEntityVelocity(attackedPlayer));
